@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Andrew Barcelos - Personal Webpage</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-size: cover;
+            background-position: center; /* Set the background position to center */
+            color: #fff;
+            text-align: center;
+            padding: 100px 0; /* Adjust the padding to your preference */
+            position: relative;
+            display: flex; /* Use flexbox to align items horizontally and vertically */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            justify-content: center; /* Center items vertically */
+        }
+
+        .banner-image {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100vh;
+            display: block;
+        }
+
+        .name {
+            font-size: 2rem;
+            color: #000;
+            margin-top: 20px; /* Add margin to separate the image and name */
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding-bottom: 60px; /* Added padding for the button at the bottom */
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0 20px;
+            padding: 10px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%; /* Make images responsive */
+        }
+
+        /* Bottom navigation button */
+        .next-button {
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .next-button button {
+            font-size: 1.5rem;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .next-button button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Company Info */
+        .company-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .company-info p {
+            font-size: 1.2rem;
+        }
+
+        .company-info a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Insert your banner image here -->
+        <img src="OIP.jpg" alt="Banner Image" class="banner-image">
+        <h1 class="name">Kyle Andrew Barcelos</h1>
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I grew up in a small town with high hopes and big dreams. Now, as a dedicated and passionate salesman, I'm committed to helping you find the perfect automotive solution that fits your needs and preferences.</p>
+        
+        <p>With a profound love for cars and a knack for taking on projects, I understand the intricacies of the automotive world. My goal is not just to sell you a product but to provide you with the knowledge and information you need to make an informed decision. I believe that an informed customer is a satisfied customer.</p>
+        
+        <p>Whether you're looking for a reliable Chrysler vehicle, the power and performance of a Dodge, the adventurous spirit of a Jeep, or the rugged capability of a Ram, I'm here to guide you through the options, answer your questions, and ensure that your automotive journey is a smooth and enjoyable one.</p>
+        
+        <p>Feel free to explore the featured products section to learn more about the incredible vehicles I have to offer. If you have any inquiries or would like to schedule a test drive, don't hesitate to reach out. Your satisfaction is my top priority.</p>
+
+        <!-- Insert your existing image here -->
+        <img src="Chrysler-Dodge-Jeep-Ram.jpg" alt="Chrysler">
+       
+    </div>
+
+    <!-- Company Info -->
+    <div class="company-info">
+        <p>Visit us at:</p>
+        <p>Turlock Chrysler Dodge Jeep Ram</p>
+        <p>1600 Auto Mall Drive, Turlock, CA</p>
+        <p>Phone: 209-250-5800</p>
+        <p><a href="https://www.turlockchryslerdodgejeepram.com" target="_blank">Visit our website</a></p>
+        <p>Ask for Kyle in sales.</p>
+    </div>
+
+    <!-- Bottom navigation button -->
+    <div class="next-button">
+        <button onclick="goToChryslerPage()">Next Page</button>
+    </div>
+
+    <script>
+        function goToChryslerPage() {
+            // Replace 'chrysler.html' with the actual URL of the Chrysler page
+            window.location.href = 'chrysler.html';
+        }
+    </script>
+</body>
+</html>
